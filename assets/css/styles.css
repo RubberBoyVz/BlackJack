@@ -1,0 +1,36 @@
+html,
+body {
+    margin: 0;
+    background-color: #2f4f30;
+    color: white;
+}
+
+.titulo {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.carta {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#computadora-cartas,
+#jugador-cartas {
+    height: 240px;
+}
+
+@media (max-width: 1375px) {
+    .carta {
+        width: 110px;
+    }
+
+    #computadora-cartas,
+    #jugador-cartas {
+        height: 180px;
+    }
+}
